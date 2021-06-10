@@ -1,0 +1,91 @@
+head{
+    font-family: Helvetica;
+    text-align: left;
+}
+
+header{
+    font-family: Helvetica;
+    background-color: #ca8a8b;
+    text-align: left;
+    margin-top: 20px;
+}
+body { 
+  background-position: justify;
+  margin:0 auto;
+  text-align: justify;
+  max-width: 1280px;
+}
+.logo{
+    text-align: left;
+    margin: 30px;
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+.arbol{
+    padding: 0px;
+    width: 1280px;
+}
+.cuadro {
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+}   
+.subtitulo{
+    color: #000;
+}
+
+.comparar{
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: repeat(2, 1fr);
+}   
+
+
+div {
+  text-align: center;
+  color:#ca8a8b;
+
+  
+}
+
+
+h1 { 
+    color: #480032;
+    visibility: visible;
+    font-family: helvetica;
+    border-left: 50px; 
+    display: inline-block;    
+}
+section { 
+    color: #9f5f80;
+    font-family: Helvetica;
+    text-align: center;
+    display: inline-block;
+}
+h3 { 
+    color: #79a3b1;
+    visibility: visible;
+    font-family: helvetica;
+    text-align: center;
+    border-left: 50px;   
+}
+
+ul{ 
+    background: lightblue;
+    list-style-type: none;
+    color: #052630;
+    font-family: Helvetica;
+}
+footer{
+    font-family: Helvetica;
+    background-color: #ca8a8b;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+ 
