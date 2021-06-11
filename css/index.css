@@ -8,6 +8,29 @@ header{
     background-color: #ca8a8b;
     text-align: left;
     margin-top: 20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+}
+.direcciones{
+    text-align: left;
+    background-color: #ffd8cc;
+    padding: 15px;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    max-width: 1280px;
+    display: block;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    text-decoration: none;
+    
+}
+.link{
+    padding: 17px 145px;
+    color: #b4846c;
+    
+}
+.link:hover{
+    background-color:#480032 ;
 }
 body { 
   background-position: justify;
@@ -21,20 +44,50 @@ body {
     border-radius: 10px;
     width: 300px;
     display: inline-block;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    display: inline-block;
 }
 
 .arbol{
     padding: 0px;
     width: 1280px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    height: auto;
 }
-.cuadro {
-    display: grid;
-    grid-gap: 200px;
-    grid-template-columns: repeat(2, 1fr);
-    color: black;
+.parrafo{
+    color: #9f5f80;
+}
+.cuadro1 {
+    padding: 20px;
+    width: 500px;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #480032;
+    display: inline-block;
+    background-color: #ca8a8b;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
 }   
+.cuadro2 {
+    padding: 20px;
+    width: 500px;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 60px;
+    color: #480032;
+    top: 800px;
+    display: inline-block;
+    background-color: #ca8a8b;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+
+}   
+ul{
+    list-style-type: none;
+    display: inline-block;
+    color: #480032;
+}
 .subtitulo{
     color: #000;
+    position: relative;
 }
 
 .comparar{
@@ -45,7 +98,7 @@ body {
 
 
 div {
-  text-align: center;
+  text-align: justify;
   color:#ca8a8b;
 
   
@@ -65,25 +118,22 @@ section {
     text-align: center;
     display: inline-block;
 }
-h3 { 
-    color: #79a3b1;
+h2 { 
+    color: #480032;
     visibility: visible;
     font-family: helvetica;
     text-align: center;
     border-left: 50px;   
 }
 
-ul{ 
-    background: lightblue;
-    list-style-type: none;
-    color: #052630;
-    font-family: Helvetica;
-}
+
 footer{
     font-family: Helvetica;
     background-color: #ca8a8b;
+    color: #480032;
     text-align: center;
     padding: 10px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
 }
 
 
