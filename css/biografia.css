@@ -1,80 +1,56 @@
-head{
-    font-family: Helvetica;
-    
-}
-header{
-    font-family: Helvetica;
-    background-color: #ca8a8b;
-    text-align: left;
-    margin-top: 20px;
-}
-body {
-    background-position: justify;
-    margin:0 auto;
-    text-align: justify;
-    max-width: 1280px;
-  }
-
-.logo{
-    text-align: left;
-    margin: 30px;
-    border-radius: 10px;
-    width: 300px;
-    display: inline-block;
-}
-.titulo { 
-    color: #480032;
-    visibility: visible;
-    font-family: helvetica;
-    border-left: 50px; 
-    display: inline-block;    
-}
-div{
-  text-align: auto;
-  color:#ca8a8b;
-}
-p{
-   text-align: justify;
-    
-}
-
-img {
+.yo {
     width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition: all 500ms ease;
 }
-h1 { 
-    color: #79a3b1;
-    visibility: visible;
-    font-family: helvetica;
-    text-align: center;
-    border-left: 50px;     
+.yo:hover{
+    transform: scale(1.05);
 }
+
 section { 
     color: #9f5f80;
     font-family: Helvetica;
    
 }
-h3 { 
-    color: #79a3b1;
-    visibility: visible;
-    font-family: helvetica;
-    text-align: center;
-    border-left: 50px;   
-}
 
 span{ 
-    color: #79a3b1;
+    color: #480032;
     visibility: visible;
     font-family: helvetica;
      
 }
 
-footer{
-    font-family: Helvetica;
-    background-color: #ca8a8b;
-    text-align: center;
-    padding: 10px;
+.boton{
+    text-decoration:none;
+    font: weight 60px;;
+    font-size:17px;
+    color:#480032;
+    padding: 10px 30px;
+    margin: 30px;
+    height: auto;
+    background-color:#fcdec0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow:  0 0 5px 0 rgba(0,0,0,.5);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    border: 1px solid #480032;
+    transition: all 500ms ease;
+    animation: btn 4s infinite;
 }
 
+.boton:hover{
+    background-color: #e5b299;
+}
+
+.boton:active{
+    background-color: #7d5a50;
+}
+
+.textoOculto{
+    display:none;
+}

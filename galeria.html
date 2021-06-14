@@ -5,59 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
-    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> 
 </head>
+
 <body>
-    <header> <img src="logo watt.png" alt="Logo watt" class="logo" >  
+     <header> <img src="fotos/logo watt.png" alt="Logo watt" class="logo">  
+
         <h1 class="titulo">Introducción al Desarrollo Web</h1>
+
         <nav class="direcciones">
             <a class="link" href="index.html">Inicio </a> <a class="link" href="biografia.html">Biografía </a> <a class="link" href="galeria.html"> Galería</a>
-            
-        </nav></header>
+        </nav>
+
+     </header>
+
+     <main>
         <h1 class="titulo2">Galería</h1> 
-    <section id="button" class="botones">
-        <button id="hobbieBtn" class="boton" onclick="buttons('likes')"> Hobbies</button>
-        <button id="mascotaBtn" class="boton" onclick="buttons('pets')"> Mascotas</button>
-        <button id="viajeBtn" class="boton" onclick="buttons('travels')"> Viajes</button>
-        <button id="todoBtn" class="boton" onclick="buttons('type')">Todo</button>
-    </section>  
 
-    <div class="galeria" id="type"> 
+     <section id="button" class="botones">
+             <button id="hobbieBtn" class="boton" onclick="buttons('likes')"> Hobbies</button>
+             <button id="mascotaBtn" class="boton" onclick="buttons('pets')"> Mascotas</button>
+             <button id="viajeBtn" class="boton" onclick="buttons('travels')"> Viajes</button>
+             <button id="todoBtn" class="boton" onclick="buttons('type')">Todo</button>
+     </section>  
+
+     <div class="galeria" id="type"> 
          
-        <div class="hobbies" id="likes">  
-        <img src="hobbie1.jpg" alt="hobbie1" class="hobbie">
-        <img src="hobbie2.jpg" alt="hobbie2" class="hobbie">
-        <img src="hobbie3.jpg" alt="hobbie3" class="hobbie">
-        <img src="hobbie4.jpg" alt="hobbie4" class="hobbie">
-        </div> 
+         <div class="hobbies" id="likes">  
+             <img src="fotos/hobbie1.jpg" alt="hobbie1" class="hobbie">
+             <img src="fotos/hobbie2.jpg" alt="hobbie2" class="hobbie">
+             <img src="fotos/hobbie3.jpg" alt="hobbie3" class="hobbie">
+             <img src="fotos/hobbie4.jpg" alt="hobbie4" class="hobbie">
+         </div> 
 
-        <div class="mascotas" id="pets">  
-        <img src="mascota1.jpg" alt="mascota1" class="mascota">
-        <img src="mascota2.jpg" alt="mascota2" class="mascota">
-        <img src="mascota3.jpg" alt="mascota3" class="mascota">
-        <img src="mascota4.jpg" alt="mascota4" class="mascota">
-        </div>
+         <div class="mascotas" id="pets">  
+             <img src="fotos/mascota1.jpg" alt="mascota1" class="mascota">
+             <img src="fotos/mascota2.jpg" alt="mascota2" class="mascota">
+             <img src="fotos/mascota3.jpg" alt="mascota3" class="mascota">
+             <img src="fotos/mascota4.jpg" alt="mascota4" class="mascota">
+         </div>
 
-        <div class="viajes" id="travels">  
-        <img src="viaje1.jpg" alt="viaje1" class="viaje">
-        <img src="viaje2.jpg" alt="viaje2" class="viaje">
-        <img src="viaje3.jpg" alt="viaje3" class="viaje">
-        <img src="viaje4.jpg" alt="viaje4" class="viaje">
-        </div>
+         <div class="viajes" id="travels">  
+             <img src="fotos/viaje1.jpg" alt="viaje1" class="viaje">
+             <img src="fotos/viaje2.jpg" alt="viaje2" class="viaje">
+             <img src="fotos/viaje3.jpg" alt="viaje3" class="viaje">
+             <img src="fotos/viaje4.jpg" alt="viaje4" class="viaje">
+         </div>
     
-    </div>
-
-       
+     </div>  
+    </main>
     
     <footer> 
          <hl>&#169;2021 Hecho por: Sofía Retana Barboza</hl>
+
          <a href="https://www.facebook.com/"target= blank><i class="fab fa-facebook-square"></i></a> 
          <a href="https://www.instagram.com/?hl=es-la"target= blank><i class="fab fa-instagram"></i></a>
          <a href="https://twitter.com/login?lang=es"target= blank><i class="fab fa-twitter-square"></i></a> 
-         <a href="https://cr.linkedin.com/"target= blank><i class="fab fa-linkedin"></i> </a> 
-         
-     </footer>
-     <script src="script.js"></script>
+         <a href="https://cr.linkedin.com/"target= blank><i class="fab fa-linkedin"></i> </a>    
+    </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>

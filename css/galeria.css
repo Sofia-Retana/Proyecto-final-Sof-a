@@ -1,65 +1,114 @@
-head{
-    font-family: Helvetica;
-    text-align: center;
-}
-body { 
-    background-position: justify;
-    margin-left: 300px;
-    margin-right: 300px;
+.galeria{
     text-align: justify;
-  
-  
-}
-div{
-  text-align: center;
-  color:#ca8a8b;
+    transition: all 300ms;
+    cursor: pointer;
 }
 
-img {
-    width: 200px;
+.hobbie{
+    width: 287px;
+    max-width: 300px;
+    margin: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 7px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    filter: blur(0.8px);
+    transition: all 500ms ease;
 }
-h1 { 
-    color: #79a3b1;
+
+.hobbie:hover{
+    transform: scale(1.05);
+    filter: blur(0);
+}
+
+.mascota{
+    width: 287px;
+    max-width: 300px;
+    margin: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 7px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    filter: blur(0.8px);
+    transition: all 500ms ease;
+}
+
+.mascotas, .viajes {
+    display: none; 
+}
+
+.mascota:hover{
+    transform: scale(1.05); 
+    filter: blur(0);   
+}
+
+.viaje{
+    width: 287px;
+    max-width: 300px;
+    margin: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 7px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    border-radius: 5px;
+    filter: blur(0.8px);
+    transition: all 500ms ease;
+}
+
+.viaje:hover{
+    transform: scale(1.05);  
+    filter: blur(0);  
+}
+
+.boton{
+    text-decoration:none;
+    font: weight 60px;;
+    font-size:20px;
+    color:#480032;
+    padding: 10px 80px;
+    margin: 30px;
+    height: auto;
+    background-color:#fcdec0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow:  0 0 5px 0 rgba(0,0,0,.5);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+    border: 1px solid #480032;
+    transition: all 500ms ease;
+    animation: btn 4s infinite;
+}
+
+.boton:hover{
+    background-color: #e5b299;
+}
+
+.boton:active{
+    filter: blur(1px);
+    background-color: #7d5a50;
+}
+
+.titulo2 { 
+    color: #480032;
     visibility: visible;
     font-family: helvetica;
-    text-align: center;
-    border-left: 50px;     
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 10px; 
+    transition: all 500ms ease;  
 }
+
+h1:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(2px 4px 4px #640447);
+}
+
 section { 
     color: #9f5f80;
     font-family: Helvetica;
-    text-align: center;
-}
-h3 { 
-    color: #79a3b1;
-    visibility: visible;
-    font-family: helvetica;
-    text-align: center;
-    border-left: 50px;   
-}
-
-span{ 
-    color: #79a3b1;
-    visibility: visible;
-    font-family: helvetica;
-     
-}
-
-
-ul{ 
-    background: lightblue;
-    border-radius: 50% ;
-    margin-left: 600px;
-    margin-right: 600px;
-    border: 2px solid #456268;
-    height: 85px;
-    list-style-type: none;
-    color: #79a3b1;
-    font-family: Helvetica;
-    text-align: center;
-}
-header,footer{
-    font-family: Helvetica;
-    background-color: #ca8a8b;
     text-align: center;
 }
