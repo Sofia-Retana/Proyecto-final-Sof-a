@@ -15,11 +15,6 @@ function buttons(type) {
     var petsElement = document.getElementById( "pets");
     var typeElement = document.getElementById("type");
 
-    var hobbieBtnElement = document.getElementById( "hobbieBtn");
-    var viajeBtnElement = document.getElementById( "viajeBtn");
-    var mascotaBtnElement = document.getElementById( "mascotaBtn");
-    var todoBtnElement = document.getElementById("todoBtn")
-
     switch (type) {
         case "likes":
             travelsElement.style.display = "none";
